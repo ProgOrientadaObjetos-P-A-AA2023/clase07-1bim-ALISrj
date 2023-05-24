@@ -29,4 +29,11 @@ public class Profesor{
     public String obtenerTipo(){
         return tipo;
     }
+    
+    @Override
+    public String toString(){
+        String mensaje = String.format("Nombre: %s\nTipo: %s",nombre, tipo);
+        return mensaje;
+    }
+   
 }
