@@ -84,7 +84,7 @@ public class LecturaArchivoSecuencial {
         String cadena = "Lista de Hospitales\n";
         for (int i = 0; i < obtenerListaHospitales().size(); i++) {
             Hospital h = obtenerListaHospitales().get(i);
-            cadena = String.format("%sNombre:%s\nNumero de camas: %d\nPresupuesto: %.2f\nNombre de la Ciudad: %s\nNombre de la Provincia:%s", cadena,
+            cadena = String.format("%sNombre:%s\nNumero de camas: %d\nPresupuesto: %.2f\nNombre de la Ciudad: %s\nNombre de la Provincia:%s\n\n", cadena,
                     h.ObtenerNombre(),
                     h.obtenerNumeroCamas(),
                     h.obtenerPresupuesto(),
